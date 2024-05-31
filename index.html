@@ -109,7 +109,7 @@
               <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <h2>Publications</h2>
-                <p style="line-height: 1.5;">Topics: <button onclick="show_all(); change_color(this)">All Topics</button> / <button onclick="select_category('isp'); change_color(this)">Image Signal Processing</button> / <button onclick="select_category('ric'); change_color(this)">RAW Image Compression</button> / <button onclick="select_category('event'); change_color(this)">Event Camera</button>
+                <p style="line-height: 1.5;">Topics: <button onclick="show_all(); change_color(this)">All Topics</button> / <button onclick="select_category('isp'); change_color(this)">Image Signal Processing</button> / <button onclick="select_category('comp'); change_color(this)">Compression</button> / <button onclick="select_category('event'); change_color(this)">Event Camera</button> / <button onclick="select_category('3dv'); change_color(this)">3D Vision</button>
                 </p>
                 <p>(* represents the equal contribution.)</p>
                 <!-- <p>
@@ -144,9 +144,37 @@
       </td>
       </tr> -->
 
+     <!-- context3d'24 -->
+     <tr class="paper 3dv comp">
+      <td style="padding:20px;width:30%;vertical-align:middle">
+        <div>
+          <img src='images/ContextGS.jpg' width=100%>
+        </div>    
+
+      </td>
+      <td style="padding:20px;width:70%;vertical-align:middle">
+        <span class="tag">Arxiv'24</span> &nbsp;
+        <a href="https://github.com/wyf0912/ContextGS/blob/main/assets/ContextGS.pdf">
+          <span class="papertitle"> 
+            ContextGS: Compact 3D Gaussian Splatting with Anchor Level Context Mode</span>
+        </a>
+        <br>
+        Yufei Wang, <strong>Zhihao Li</strong>, Lanqing Guo, Wenhan Yang, Alex C. Kot, Bihan Wen
+        <br>
+        <em>Arxiv</em>, 2024
+        <br>
+        <a href="https://github.com/wyf0912/ContextGS/blob/main/assets/ContextGS.pdf">Paper</a>
+        /
+        <a href="https://github.com/wyf0912/ContextGS">Code</a>
+        <p></p>
+        <!-- <p>
+        The first to utilize normalizing flow to low-light image enhancement, achieving superior performance.
+        </p> -->
+      </td>
+    </tr>
 
      <!-- icml'24 -->
-     <tr class="paper isp ric">
+     <tr class="paper isp comp">
       <td style="padding:20px;width:30%;vertical-align:middle">
         <div>
           <img src='images/icml24.png' width=100%>
@@ -173,7 +201,7 @@
       </tr>
 
       <!-- tpami'24 -->
-      <tr class="paper isp ric">
+      <tr class="paper isp comp">
       <td style="padding:20px;width:30%;vertical-align:middle">
         <div>
           <img src='images/tpami24.png' width=100%>
@@ -281,7 +309,7 @@
     </tr>
 
     <!-- asilomar'20 -->
-    <tr class="paper isp ric">
+    <tr class="paper isp comp">
       <td style="padding:20px;width:30%;vertical-align:middle">
         <div>
           <img src='images/asilomar20.png' width=100%>
